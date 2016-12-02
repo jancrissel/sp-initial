@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+    <title>PCAARRD News Aggregator: Admin</title>
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.0/css/font-awesome.min.css">
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Material Design Bootstrap -->
+    <link href="css/mdb.min.css" rel="stylesheet">
+
+    <!-- Custom Style -->
+    <link href="css/style.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+
+    <!--Navbar-->
+    <nav class="navbar navbar-dark navbar-fixed-top scrolling-navbar">
+
+        <!-- Collapse button-->
+        <button class="navbar-toggler hidden-sm-up" type="button" data-toggle="collapse" data-target="#collapseEx">
+            <i class="fa fa-bars"></i>
+        </button>
+            <!--Collapse content-->
+            <div class="collapse navbar-toggleable-xs" id="collapseEx">
+                <!--Navbar Brand-->
+                <img src="img/logo-masthead-large.png" class="navbar-brand" href="index.html" target="_blank" style="width:300px;height:60px;" "/>
+			</div>
+    </nav>
+    <!--/.Navbar-->
+
+    <!--Content-->
+    <div class="container">
+        <div class="row">
+
+			<div class="login">
+           <!--First columnn-->
+            <div class="col-md-6">
+                <!--Card-->
+                <div class="card">
+	
+					<div class="container">
+                    <!--Card content-->
+                    <div class="card-block">
+                        <!--Title-->
+                        <h4 class="card-title">Log-In</h4>
+                        <!--Text-->
+		                <forms>
+		                    <div class="form-group">
+		                        <label for="username"> Enter username: </label><br/>
+		                        <input type="username" class="form-control" id="username">
+		                    </div>
+		                </forms>  
+		                    <div class="form-group">
+		                        <label for="password"> Enter password: </label>
+		                        <input type="password" class="form-control" id="password">
+		                    </div>
+		                </forms>
+		                </div>
+						<a href="#" class="btn btn-teal">Log-In</a><br/>
+                        <a href="#" class="btn btn-teal" data-toggle="modal" data-target=".bs-example-modal-sm4">Sign-Up</a> 
+
+                   </div>
+                    <!--/.Card content-->
+
+                </div>
+                <!--/.Card-->
+            </div>
+            <!--First columnn-->
+			</div>
+		</div>
+	</div>
+
+
+    <!--Footer-->
+    <footer class="footer-text">
+        <!--Copyright-->
+        <div class="footer-copyright">
+            <div class="container-fluid">
+                © 2016 Copyright<br/>Made by <span style="font-weight:bold"> Janel and Chelseah</span>
+            </div>
+        </div>
+        <!--/.Copyright-->
+
+    </footer>
+    <!--/.Footer-->
+
+
+    <!-- SCRIPTS -->
+
+    <!-- JQuery -->
+    <script type="text/javascript" src="js/jquery-2.2.3.min.js"></script>
+
+    <!-- Bootstrap tooltips -->
+    <script type="text/javascript" src="js/tether.min.js"></script>
+
+    <!-- Bootstrap core JavaScript -->
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+
+    <!-- MDB core JavaScript -->
+    <script type="text/javascript" src="js/mdb.min.js"></script>
+
+    <script>
+
+        //Save button
+          $('#myButton').on('click', function () {
+            var $btn = $(this).button('loading')
+            // business logic...
+            $btn.button('reset')
+          })
+
+    </script>
+
+
+</body>
+
+</html>
